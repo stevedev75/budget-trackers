@@ -18,6 +18,21 @@ mongoose.connect(
   }
 );
 
+///Testing this below...//
+
+const { MongoClient } = require('mongodb');
+const uri = "mongodb+srv://stevedev75:Georgewismer1!@cluster0.yubyx.mongodb.net/budget?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("budget").collection("transactions");
+  // perform actions on the collection object
+  client.close();
+});
+
+
+
+
+
 
 const app = express();
 
