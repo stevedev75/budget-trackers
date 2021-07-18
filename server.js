@@ -8,7 +8,8 @@ const compression = require("compression");
 const PORT = process.env.PORT || 3000;
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/shielded-ridge-87332',
+ // process.env.MONGODB_URI || 'mongodb://localhost/shielded-ridge-87332',
+  process.env.MONGODB_URI || 'mongodb://localhost/budget',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
