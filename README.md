@@ -13,7 +13,7 @@
 
 
 Please see the deployed application on Heroku:
-https://dashboard.heroku.com/apps/shielded-ridge-87332
+https://shielded-ridge-87332.herokuapp.com/
 
 Please see the link to my GitHub repository for the code:
 https://github.com/stevedev75/budget-trackers
